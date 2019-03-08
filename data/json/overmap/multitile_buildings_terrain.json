@@ -24,7 +24,7 @@
     "copy-from": "generic_city_building",
     "name": "hotel parking",
     "sym": 104,
-    "color": "light_blue"
+    "color": "light_blue",
     "see_cost" : 2,
     "mondensity" : 2,
     "flags" : [ "SIDEWALK" ]
@@ -35,7 +35,7 @@
     "copy-from": "generic_city_building",
     "name": "hotel parking",
     "sym": 104,
-    "color": "light_blue"
+    "color": "light_blue",
     "see_cost" : 2,
     "mondensity" : 2,
     "flags" : [ "SIDEWALK" ]
@@ -46,7 +46,7 @@
     "copy-from": "generic_city_building",
     "name": "hotel parking",
     "sym": 104,
-    "color": "light_blue"
+    "color": "light_blue",
     "see_cost" : 2,
     "mondensity" : 2,
     "flags" : [ "SIDEWALK" ]
