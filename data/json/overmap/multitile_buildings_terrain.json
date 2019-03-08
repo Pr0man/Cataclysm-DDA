@@ -17,5 +17,316 @@
     "color" : "light_green",
     "see_cost" : 2,
     "mondensity" : 2
-  }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_1_1",
+    "copy-from": "generic_city_building",
+    "name": "hotel parking",
+    "sym": 104,
+    "color": "light_blue"
+    "see_cost" : 2,
+    "mondensity" : 2,
+    "flags" : [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_1_2",
+    "copy-from": "generic_city_building",
+    "name": "hotel parking",
+    "sym": 104,
+    "color": "light_blue"
+    "see_cost" : 2,
+    "mondensity" : 2,
+    "flags" : [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_1_3",
+    "copy-from": "generic_city_building",
+    "name": "hotel parking",
+    "sym": 104,
+    "color": "light_blue"
+    "see_cost" : 2,
+    "mondensity" : 2,
+    "flags" : [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_1_4",
+    "copy-from": "generic_city_building",
+    "name": "hotel parking",
+    "sym": 104,
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_1_5",
+    "copy-from": "generic_city_building",
+    "name": "hotel entrance",
+    "sym": 72,
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_1_6",
+    "copy-from": "generic_city_building",
+    "name": "hotel parking",
+    "sym": 104,
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_1_7",
+    "copy-from": "generic_city_building",
+    "name": "hotel tower",
+    "sym": 72,
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_1_8",
+    "copy-from": "generic_city_building",
+    "name": "hotel tower",
+    "sym": 72,
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_1_9",
+    "copy-from": "generic_city_building",
+    "name": "hotel tower",
+    "sym": 72,
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_b_1",
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "hotel basement",
+    "sym": 66,
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_b_2",
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "hotel basement",
+    "sym": 66,
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hotel_tower_b_3",
+    "copy-from": "generic_city_building_no_sidewalk",
+    "name": "hotel basement",
+    "sym": 66,
+    "color": "light_blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "megastore_entrance",
+    "name": "megastore",
+    "sym": 43,
+    "color": "light_blue",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2,
+    "flags": [ "SIDEWALK", "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "megastore",
+    "name": "megastore",
+    "sym": 77,
+    "color": "blue",
+    "see_cost": 5,
+    "extras": "build",
+    "mondensity": 2,
+    "flags": [ "SIDEWALK", "NO_ROTATE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "abstract": "generic_hospital",
+    "copy-from": "generic_city_building",
+    "name": "hospital",
+    "sym": 72,
+    "color": "red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hospital_1",
+    "copy-from": "generic_hospital"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hospital_2",
+    "copy-from": "generic_hospital",
+    "color": "light_red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hospital_3",
+    "copy-from": "generic_hospital"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hospital_4",
+    "copy-from": "generic_hospital"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hospital_5",
+    "copy-from": "generic_hospital"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hospital_6",
+    "copy-from": "generic_hospital"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hospital_7",
+    "copy-from": "generic_hospital"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hospital_8",
+    "copy-from": "generic_hospital"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hospital_9",
+    "copy-from": "generic_hospital"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "public_works_NE",
+    "name": "public works",
+    "sym": 119,
+    "color": "light_gray",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "public_works_NW",
+    "name": "public works",
+    "sym": 119,
+    "color": "light_gray",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "public_works_SW",
+    "name": "public works",
+    "sym": 87,
+    "color": "light_gray",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "public_works_SE",
+    "name": "public works",
+    "sym": 119,
+    "color": "light_gray",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "school_1_1",
+    "name": "regional school",
+    "sym": 115,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "school_1_2",
+    "name": "regional school",
+    "sym": 83,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "school_1_3",
+    "name": "regional school",
+    "sym": 115,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "school_1_4",
+    "name": "regional school",
+    "sym": 115,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "school_1_5",
+    "name": "regional school",
+    "sym": 115,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "school_1_6",
+    "name": "regional school",
+    "sym": 115,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "school_1_7",
+    "name": "regional school",
+    "sym": 115,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "school_1_8",
+    "name": "regional school",
+    "sym": 115,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "school_1_9",
+    "name": "regional school",
+    "sym": 115,
+    "color": "light_blue",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  },
 ]
