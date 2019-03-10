@@ -5200,6 +5200,32 @@
   },
   {
     "type": "terrain",
+    "id": "t_shrub_dead_bush",
+    "name": "dead bush",
+    "symbol": "#",
+    "color": "brown",
+    "looks_like": "t_shrub",
+    "move_cost": 6,
+    "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE_ASH", "THIN_OBSTACLE", "PLACE_ITEM", "SHRUB", "SHORT" ],
+    "transforms_into": "t_grass_long",
+    "examine_action": "harvest_ter_nectar",
+    "harvest_by_season": [
+      {
+        "seasons": [ "spring", "summer", "autumn", "winter" ],
+        "entries": [ { "drop": "withered", "base_num": [ 4, 8 ], "scaled_num": [ 0, 0.5 ] } ]
+      }
+    ],
+    "bash": {
+      "str_min": 4,
+      "str_max": 30,
+      "sound": "crunch.",
+      "sound_fail": "brush.",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "withered", "count": [ 2, 6 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
     "id": "t_shrub_peanut",
     "name": "peanut bush",
     "description": "A small bush of crunchy peanuts.",
